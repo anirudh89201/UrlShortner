@@ -9,7 +9,7 @@ Paste a long URL, get a short one. Click it, get redirected.
 
 ## Architecture
 
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](./architecture.jpg)
 
 **Request flow:**
 ```
