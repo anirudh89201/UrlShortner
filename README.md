@@ -225,16 +225,3 @@ No servers running 24/7. No idle billing.
 - **IaC** — entire infrastructure as AWS CDK code
 
 ---
-
-## SSA Concepts Demonstrated
-
-- Serverless compute (Lambda)
-- Managed NoSQL database (DynamoDB)
-- Content delivery network (CloudFront)
-- Origin Access Control (OAC)
-- API Gateway proxy integration
-- IAM least privilege
-- Static website hosting (S3)
-- CORS configuration
-- Environment variable management
-- Pay-per-request cost optimization
