@@ -1,0 +1,112 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* Page background */
+  body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Card */
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  /* Title */
+  .card h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+    color: #333;
+  }
+  
+  /* Input group */
+  .input-group {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    color: #555;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 0.8rem;
+    background: #667eea;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #5a67d8;
+  }
+  
+  button:disabled {
+    background: #aaa;
+    cursor: not-allowed;
+  }
+  
+  /* Loading */
+  .loading {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #667eea;
+  }
+  
+  /* Result */
+  .result {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f4f6ff;
+    border-radius: 10px;
+  }
+  
+  .result a {
+    color: #667eea;
+    text-decoration: none;
+    word-break: break-all;
+  }
+  
+  .result a:hover {
+    text-decoration: underline;
+  }
