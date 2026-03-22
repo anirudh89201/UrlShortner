@@ -1,13 +1,14 @@
 import axios from "axios";
-
+const api = import.meta.env.VITE_API_URL
 export const sendUrl = async (url) => {
     const data = {
         longUrl: url
     };
 
     try {
+        console.log("API:",api)
         const response = await axios.post(
-            "https://lyslwokumc.execute-api.us-east-1.amazonaws.com/prod/shorten",
+            `${api}/shorten`,
             data,
             {
                 headers: {
